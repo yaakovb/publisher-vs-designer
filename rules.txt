@@ -1,0 +1,18 @@
+Game Setup 
+take the 3 start cards, they're 'player deck' the other cards are 'store deck'.
+take the 4 store start cards, choose 1 randomly, shuffle the rest into 'store deck'.
+draw 2 cards from the store deck, place them and the third card next to the 'store deck' at random order, this will be the 'store'.
+decide which player will be the designers and who will be the publishers.
+
+gamePlay
+each player in his turn draws 3 cards from the player deck, if no cards can be drawn shuffle the player discard pile turn it over and use it as the player deck.
+use the card actions, note that a card that it action was used cannot be discarded so action order is important.
+use the sum of the cards resources to buy one card from the store.
+discard all the cards into the player discard pile.
+if no card was baught from the store discard the card farest from the store deck into the store discard pile.
+push the cards in the store away from the store deck then refill the store using the store deck.
+if there aren't enough cards to refill the store deck trash the card farest away from the store deck shuffle the store discard pile and use it as the new store deck.
+if you still can't refill the store the game reached the end.
+
+game End
+take all the cards from the palyers deck and discard pile count the publishers points and the designers points, the player that has more points wins.
