@@ -12,19 +12,19 @@ TEXT=4-17,Cost:,38%,0%,16%,8%,RIGHT,WWCENTER
 FONT=Arial,14,T,#000000
 IF=[GOLD COST]>0
 TEXT=1-17,[GOLD COST],54%,0%,10%,8%,RIGHT,WWCENTER
-IMAGE=1-17,gold.png,64%,1%,8%,4%,0,P
+IMAGE=1-17,assets\gold.png,64%,1%,8%,4%,0,P
 ENDIF
 IF=([BLUE COST]>0)_AND_([RED COST]>0)
 TEXT=1-17,[BLUE COST],69%,0%,10%,8%,RIGHT,WWCENTER
-IMAGE=1-17,publish.png,79%,1%,8%,4%,0,p
+IMAGE=1-17,assets\publish.png,79%,1%,8%,4%,0,p
 TEXT=1-17,[RED COST],83%,0%,10%,8%,RIGHT,WWCENTER
-IMAGE=1-17,design.png,93%,1%,8%,4%,0,P
+IMAGE=1-17,assets\design.png,93%,1%,8%,4%,0,P
 ELSEIF=[BLUE COST]>0
 TEXT=1-17,[BLUE COST],70%,0%,10%,8%,RIGHT,WWCENTER
-IMAGE=1-17,publish.png,80%,1%,8%,4%,0,P
+IMAGE=1-17,assets\publish.png,80%,1%,8%,4%,0,P
 ELSEIF=[RED COST]>0
 TEXT=1-17,[RED COST],70%,0%,10%,8%,RIGHT,WWCENTER
-IMAGE=1-17,design.png,80%,1%,8%,4%,0,P
+IMAGE=1-17,assets\design.png,80%,1%,8%,4%,0,P
 ENDIF
 ;image
 RECTANGLE=1-17,5%,12%,90%,45%,#000000
@@ -38,38 +38,38 @@ IF=([POINTS]>0)
 TEXT=1-17,[POINTS],60%,65%,10%,8%,LEFT,WWCENTER
 ENDIF
 IF=[POINTS COLOR]=blue
-IMAGE=1-17,trophy.png,70%,60%,25%,25%,0,TP
-IMAGE=1-17,publish_neg.png,77%,65%,10%,10%,0,T
+IMAGE=1-17,assets\trophy.png,70%,60%,25%,25%,0,TP
+IMAGE=1-17,assets\publish_neg.png,77%,65%,10%,10%,0,T
 ELSEIF=[POINTS COLOR]=red
-IMAGE=1-17,medal.png,70%,60%,25%,25%,0,TP
-IMAGE=1-17,design_neg.png,78%,66%,10%,10%,0,T
+IMAGE=1-17,assets\medal.png,70%,60%,25%,25%,0,TP
+IMAGE=1-17,assets\design_neg.png,78%,66%,10%,10%,0,T
 ENDIF
 ;effect
 IF=([GOLD EFFECT]>0)_AND_([BLUE EFFECT]>0)_AND_([RED EFFECT]>0)
 TEXT=1-17,"+[GOLD EFFECT]",10%,74%,10%,8%,RIGHT
-IMAGE=1-17,gold.png,20%,74%,8%,4%,0,p
+IMAGE=1-17,assets\gold.png,20%,74%,8%,4%,0,p
 TEXT=1-17,"+[BLUE EFFECT]",28%,74%,10%,8%,RIGHT
-IMAGE=1-17,publish.png,38%,74%,8%,4%,0,p
+IMAGE=1-17,assets\publish.png,38%,74%,8%,4%,0,p
 TEXT=1-17,"+[RED EFFECT]",46%,74%,10%,8%,RIGHT
-IMAGE=1-17,design.png,56%,74%,8%,4%,0,P
+IMAGE=1-17,assets\design.png,56%,74%,8%,4%,0,P
 ELSEIF=([BLUE EFFECT]>0)_AND_([RED EFFECT]>0)
 TEXT=1-17,"+[BLUE EFFECT]",10%,74%,10%,8%,RIGHT
-IMAGE=1-17,publish.png,20%,74%,8%,4%,0,p
+IMAGE=1-17,assets\publish.png,20%,74%,8%,4%,0,p
 TEXT=1-17,"+[RED EFFECT]",28%,74%,10%,8%,RIGHT
-IMAGE=1-17,design.png,38%,74%,8%,4%,0,p
+IMAGE=1-17,assets\design.png,38%,74%,8%,4%,0,p
 ELSEIF=([GOLD EFFECT]>0)_AND_([BLUE EFFECT]>0)
 TEXT=1-17,"+[GOLD EFFECT]",10%,74%,10%,8%,RIGHT
-IMAGE=1-17,gold.png,20%,74%,8%,4%,0,p
+IMAGE=1-17,assets\gold.png,20%,74%,8%,4%,0,p
 TEXT=1-17,"+[BLUE EFFECT]",28%,74%,10%,8%,RIGHT
-IMAGE=1-17,publish.png,38%,74%,8%,4%,0,p
+IMAGE=1-17,assets\publish.png,38%,74%,8%,4%,0,p
 ELSEIF=([GOLD EFFECT]>0)_AND_([RED EFFECT]>0)
 TEXT=1-17,"+[GOLD EFFECT]",10%,74%,10%,8%,RIGHT
-IMAGE=1-17,gold.png,20%,74%,8%,4%,0,p
+IMAGE=1-17,assets\gold.png,20%,74%,8%,4%,0,p
 TEXT=1-17,"+[RED EFFECT]",28%,74%,10%,8%,RIGHT
-IMAGE=1-17,design.png,38%,74%,8%,4%,0,p
+IMAGE=1-17,assets\design.png,38%,74%,8%,4%,0,p
 ELSEIF=([GOLD EFFECT]>0)
 TEXT=1-17,"+[GOLD EFFECT]",10%,74%,10%,8%,RIGHT
-IMAGE=1-17,gold.png,20%,74%,8%,4%,0,p
+IMAGE=1-17,assets\gold.png,20%,74%,8%,4%,0,p
 ENDIF
 ;action
 TEXT=1-17,[ACTION],9%,87%,70%,12%,LEFT,WWTOP
